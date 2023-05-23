@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(./bg-full.jpg);
+            background-color: rgba(0, 0, 0, 0.5);
+            background-blend-mode: multiply;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #main {
+            display: flex;
+            border: 1px solid rgba(170, 170, 170, 0.5);
+        }
+
+        #ps4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            text-align: center;
+            background-image: url(./main.jpg);
+            background-position: center;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.5);
+            background-blend-mode: multiply;
+            width: 700px;
+            height: 750px;
+            font-family: '微軟正黑體';
+            font-size: 20px;
+            color: #fff;
+        }
+
+        #ps4 img {
+            width: 30%;
+        }
+
+        #ps4 h1 {
+            margin: 0;
+        }
+
+        #ps4 p {
+            width: 80%;
+            margin-bottom: 100px;
+        }
+
+        #charcter {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #cloud {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            background: #aaa;
+            background-image: url(./cloud.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+            width: 740px;
+            height: 375px;
+            font-family: '微軟正黑體';
+            font-size: 20px;
+
+        }
+
+        #cloud h1 {
+            margin-bottom: 0;
+            margin-left: 40px;
+        }
+
+        #cloud p {
+            margin-left: 40px;
+            width: 60%;
+            margin-top: 0;
+        }
+
+        #tifa {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            background: #1b1b1b;
+            background-image: url(./tifa.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left;
+            width: 740px;
+            height: 375px;
+            color: #fff;
+            font-family: '微軟正黑體';
+            font-size: 20px;
+        }
+
+        #tifa h1 {
+            margin-right: 375px;
+            margin-bottom: 0;
+        }
+
+        #tifa p {
+            width: 60%;
+            margin: 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="main">
+            <div id="ps4">
+                <img src="./ps4-ff7.png">
+                <h1>AVALIABLE NOW</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, facere rerum dolor, neque, aliquid
+                    voluptatum temporibus id corrupti et natus consectetur nesciunt perspiciatis. Tempore iste ipsam
+                    illum sed non alias.</p>
+            </div>
+            <div id="charcter">
+                <div id="cloud">
+                    <h1>Cloud</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque velit laudantium numquam assumenda
+                        maiores? Magni perferendis commodi distinctio animi sapiente? Explicabo dolorem excepturi quas
+                        ab ipsum ipsam optio sint repudiandae!</p>
+                </div>
+                <div id="tifa">
+                    <h1>Tifa</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quis corporis ut deleniti facere
+                        modi, eveniet accusamus ratione maxime maiores sit enim? Voluptate nihil provident doloribus
+                        asperiores quos aspernatur soluta.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
